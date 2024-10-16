@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    
+}
+.seccion1{
+    display: flex;
+    background-color: aqua;
+    width: 20vw;
+    
+}
+
+.seccion2{
+    background-color: violet;
+    
+   
+}
+
+.seccion2>article{
+    display: flex;
+    background-color: blue;
+    
+}
+
+.seccion2>article>article{
+    background-color: red;
+    
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--En la cabecera de la página, agregué un título-->
+     <title>HORARIO CLASE DAM</title>
+         
+          <!--Aquí dentro, coloqué los links correspondientes de google fonts, para agregarle el estilo a la cabecera principal de mi tabla-->
+          <link rel="stylesheet" href="./styles/styles2.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        
+</head>
+<body>
+     <table>
+          <thead>
+               <tr>
+                    <!--Empezamos con la tabla poniendo como título el siguiente-->
+                    <!--Puse la tabla e abrí una etiqueta en el cual contiene otra etiqueta de cabecera de tabla-->
+                    <th class="cabecera" colspan="6">HORARIO DE CLASE</th>
+               </tr>
+               <tr>
+                    <!--Agregué una clase denominada días, para posteriormente realizar cambios en la hoja de estilos-->
+                    <th class="dias">Horarios</td>
+                    <th class="dias">Lunes</th>
+                    <th class="dias">Martes</th>
+                    <th class="dias">Miercoles</th>
+                    <th class="dias">Jueves</th>
+                    <th class="dias">Viernes</th>
+               </tr>
+          </thead>  
+          <tbody>
+               
+                    
+          <tr>
+               <!--Una vez llegado a este punto llevé un orden creando clases para
+               los diferentes tipos de módulos y cubriendo las filas o columnas 
+               corrrespondientes con "colspan y rowspan"-->
+               <td class="horario">08:15-09:15</td>
+               <td class="programacion" rowspan="2">Programación</td>
+               <td class="fol">FOL</td>
+               <td class="entornos" rowspan="2">Entornos de desarrollo</td>
+               <td class="programacion" rowspan="2">Programación</td>
+               <td class="base" rowspan="2">Base de Datos</td>
+          </tr>
+          <tr>
+               <td class="horario">09:15-10:15</td>
+               <td class="entornos">Entornos de Desarrollo</td>
+          </tr>
+          <tr>
+               <td class="horario">10:15-11:15</td>
+               <td class="base">Base de Datos</td>
+               <td class="lenguaje"> Lenguaje de Marcas y Sistemas</td>
+               <td class="base">Base de Datos</td>
+               <td class="fol">FOL</td>
+               <td class="sosten">Sostenibilidad Aplicada al Sistema Productivo</td>
+          </tr>
+          <tr>
+               <td class="horario">11:15-11:45</td>
+               <td class="recreo" colspan="5">RECREO</td>
+          </tr>
+          <tr>
+               <td class="horario">11:45-12:45</td>
+               <td class="base">Base de Datos</td>
+               <td class="programacion" rowspan="3">Programación</td>
+               <td class="base">Base de Datos</td>
+               <td class="lenguaje"rowspan="2">Lenguaje de Marcas y Sistemas</td>
+               <td class="fol">FOL</td>
+          <tr>
+               <td class="horario">12:45-13:45</td>
+               <td class="sistemas" rowspan="2">Sistemas Informáticos</td>
+               <td class="sistemas" rowspan="2">Sistemas Informáticos</td>
+               <td class="sistemas">Sistemas Informáticos</td>
+          </tr>
+          <tr>
+               <td class="horario">13:45-14:45</td>
+               <td class="digital">Digitalización Aplicada</td>
+               <td class="programacion">Programación</td>
+          </tr>
+          <!--No agregué ningún pié de página, ya que, terminaba la tabla en el cuerpo-->
+          </tbody> 
+     </body> 
+     </table>
+
+</html>
